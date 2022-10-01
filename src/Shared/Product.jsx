@@ -3,9 +3,9 @@ import React from 'react'
 export default function Product({productData}) {
   return (
     <div>
-        <img alt="img"/>
+        <img src={productData.image} alt={productData.title} style={{width:"250px"}}/>
         <h3>{productData.title}</h3>
-        <p>price</p>
+        <p>price:{productData.price}</p>
         <div>
             <a href='#'>Detailes</a>
             <div>
