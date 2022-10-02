@@ -2,7 +2,7 @@ import React from "react";
 // components
 import Store from "./components/Store";
 import ProductDetails from "./Shared/ProductDetails";
-import Navbar from "./components/Navbar";
+import Navbar from "./Shared/Navbar";
 import ShopCart from "./components/ShopCart";
 
 import { Switch, Route, Redirect } from "react-router-dom";

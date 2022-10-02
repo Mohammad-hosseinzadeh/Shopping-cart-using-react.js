@@ -28,6 +28,7 @@ const cartReaducer = (state, action) => {
                 ...state,
                 selectedItems: [...state.selectedItems],
                 ...sumItems(state.selectedItems),
+                checkOut: false,
             };
         //  Remove item
         case "REMOVE_ITEM":
@@ -36,6 +37,7 @@ const cartReaducer = (state, action) => {
                 ...state,
                 selectedItems: [...newSelectedItems],
                 ...sumItems(state.selectedItems),
+            
             };
         //  Incrase Item
         case "INCREASE":
