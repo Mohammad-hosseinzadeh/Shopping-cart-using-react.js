@@ -14,7 +14,6 @@ const sumItems = (items) => {
     return { itemsCounter, total };
 };
 const cartReaducer = (state, action) => {
-    console.log(state);
     switch (action.type) {
         // Add Item
         case "ADD_ITEM":
