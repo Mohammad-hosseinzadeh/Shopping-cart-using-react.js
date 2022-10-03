@@ -1,10 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import styles from "./ProductDetails.module.css";
-import { getProducts } from "../services/api";
 import axios from "axios";
-// context
-import { ProductsContext } from "../context/ProductContextProvider";
+
+
 
 export default function ProductDetails(props) {
     const params = useParams()
